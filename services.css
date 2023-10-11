@@ -52,6 +52,9 @@ nav ul {
   nav li  a:hover{
     color: white;
   }
+  .topbar ul li a:hover {
+    background-color: #4a657f;
+  }
   
   nav ul li p::before {
     content: "|";
@@ -251,5 +254,3 @@ nav ul {
     content: ".";
     margin-right: 5px;
   }
-  .grid-item7 p{
- }
