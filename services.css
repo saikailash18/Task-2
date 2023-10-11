@@ -115,8 +115,7 @@ nav ul {
     border: 0.5px solid;
   
     border-color: #38455c;
-  
-    background-color: #10223a;
+    background: linear-gradient(to bottom, #12203880, #121E38FF, #121E38FF);
   }
  
   .bottomlinks a {
@@ -139,12 +138,10 @@ nav ul {
   .footer p a{
     padding-left: 15px;
     cursor: pointer;
-    text-decoration: underline;
   }
   #contact::after{
     content:"|";
-    margin-left: 10px;
-    list-style-type: none;
+    margin-bottom: 15px;
   }
   .topcontent{
     padding: 1px;
@@ -168,7 +165,6 @@ nav ul {
     border: 1px solid;
     border-color: #545b66;
     margin: 2px;
-    border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0))1
   }
   #leftsidecol{
     width: 280px;
@@ -208,8 +204,6 @@ nav ul {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #10223a; 
-    background-color: rgba(255, 255, 255, 0);
     padding: 15px;
     column-gap: 10px;
     color: white;
@@ -219,23 +213,22 @@ nav ul {
   .contentborder{
     border: 1px solid;
     border-color: #545b66;
-    margin: 2px;
-    border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0))1
+    margin: 2px;    
   }
   .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
-    /* border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center; */
     grid-area: auto
   }
   .grid-item4{
-    color: white;
+    color: #ade1f7;
     grid-area: auto
   }
   .grid-item4 a{
-    color: #ade1f7;;
+    color: #ade1f7;
+
+  }
+  .grid-item4 p{
+    color: white;
 
   }
   .grid-item5{
@@ -262,4 +255,9 @@ nav ul {
   .grid-item6 p::before {
     content: ".";
     margin-right: 5px;
+  }
+  #request::after{
+    content: "|";
+    padding-left: 10px;
+    padding-bottom: 10px;
   }
