@@ -56,9 +56,8 @@ nav ul li a {
 
   font-size: 16px;
 
-font-family: sans-serif
+font-family: sans-serif;
 }
-
 nav ul li p::before {
   content: "|";
 
@@ -87,6 +86,9 @@ body {
   justify-content: center;
   padding-top: 1px;
 }
+.services:active:after {
+  background-color: red;
+}
 
 html {
   background-image: url("./bg.jpg");
@@ -100,11 +102,13 @@ html {
   background-color:#405c8a;
   float: right;
   font-weight: normal;
+  font-size: 15px;
   height: 20px;
   padding: 2px 7px 2px 2px;
   text-align: right;
   cursor: pointer;
-  margin-top: 2px;
+  margin-top: 0px;
+  font-family: 'Trebuchet MS';
     
 }
 
@@ -154,7 +158,8 @@ html {
 .contentbackground {
   border: 0.5px solid;
   border-color: #38455c;
-  background-color: #10223a;
+  /* background-color: #10223a; */
+  background-color:#122038;
   font-family: Trebuchet MS;
   font-size: 15px;
 }
@@ -175,7 +180,6 @@ html {
 .footer {
   width: inherit;
   color: #d4dbf3;
-  height: 22px;
   text-align: center;
   margin: 10px 0;
   padding-bottom: 0px;
@@ -213,7 +217,14 @@ html {
 .toprightbox li p{
   margin-top: 0px;
 }
-
+#request::after{
+  content: "|";
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+#request{
+  text-decoration: underline;
+}
 .contentborder{
   border: 1px solid;
   border-color: #545b66;

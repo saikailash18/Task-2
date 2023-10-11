@@ -49,13 +49,16 @@ nav ul {
     font-family:sans-serif;
     font-weight: lighter;
   }
+  /* nav ul li a.active {
+    color: red !important;
+    background-color: red !important;
+  } */
   nav li  a:hover{
     color: white;
   }
   .topbar ul li a:hover {
     background-color: #4a657f;
   }
-  
   nav ul li p::before {
     content: "|";
     margin-right: 12px;
@@ -77,17 +80,19 @@ nav ul {
     background-size: cover;
   
     background-position: center;
-    height: auto;
+    height: 100%;
   }
   .toprightbox {
     background-color:#405c8a;
     float: right;
     font-weight: normal;
+    font-size: 15px;
     height: 20px;
     padding: 2px 7px 2px 2px;
     text-align: right;
     cursor: pointer;
-    margin-top: 2px;
+    margin-top: 0px;
+    font-family: 'Trebuchet MS';
       
   }
   
@@ -104,8 +109,7 @@ nav ul {
   #Banner {
     color: #ffffff;
     border-width: 1px;
-    background-color: #291b1b47;
-    padding: 27px 0 25px 25px; 
+    padding: 27px 0 25px 25px;
   }
   .contentbackground {
     border: 0.5px solid;
@@ -121,7 +125,6 @@ nav ul {
   .footer {
     width: inherit;
     color: #d4dbf3;
-    height: 22px;
     text-align: center;
     margin: 10px 0;
     padding-bottom: 0px;
@@ -138,7 +141,7 @@ nav ul {
     cursor: pointer;
     text-decoration: underline;
   }
-  #request::before{
+  #contact::after{
     content:"|";
     margin-right: 10px;
   }
@@ -196,10 +199,16 @@ nav ul {
     float: right;
     width: 500px;
 }
+.leftcontent1 a{
+    color: #b2ddfc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     background-color: #10223a; 
+    background-color: rgba(255, 255, 255, 0);
     padding: 15px;
     padding-right: 30px;
     column-gap: 10px;
