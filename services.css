@@ -126,15 +126,13 @@ nav ul {
     width: inherit;
     color: #d4dbf3;
     text-align: center;
-    margin: 10px 0;
     padding-bottom: 0px;
-    min-height: 40px;
     background-color: #2d3e6b;
-    font-family: 'Trebuchet MS';
   }
   .footer p{
-    margin-top: 16px;
-      padding-top: 7px;
+    margin-top: 8px;
+      padding-top: 5px;
+      font-family: Trebuchet MS;
   }
   .footer p a{
     padding-left: 15px;
@@ -163,7 +161,6 @@ nav ul {
   }
   
   .contentborder{
-    border: 1px solid;
     border-color: #545b66;
     margin: 2px;
   }
@@ -174,8 +171,6 @@ nav ul {
     line-height: 35px;
   }
   ul.leftcontent1 {
-    border-top: solid 1px #5F647A;
-    border-bottom: solid 1px #5F647A;
     padding: 15px 0 15px 0;
     width: 277px;
     list-style: none;
@@ -213,6 +208,7 @@ nav ul {
   }
   .contentborder{
     border: 1px solid;
+    border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0))1;
     border-color: #545b66;
     margin: 2px;    
   }
@@ -243,8 +239,6 @@ nav ul {
     margin-top: 0px;
   }
   .grid-item7{
-    border-top: solid 1px #5F647A;
-    border-bottom: solid 1px #5F647A;
     padding: 0 0 15px 30px;
   }
   .grid-item7 a{

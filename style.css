@@ -153,11 +153,6 @@ html {
 
   margin-top: 0px;
 }
-.maincontent {
-  padding: 30px;
-  padding-top: 10px;
-  
-}
 .contentbackground {
   font-family: Trebuchet MS;
   font-size: 15px;
@@ -178,8 +173,6 @@ html {
 
 .column {
   flex: 1;
-  padding: 10px;
-  padding-left: 0px;
 }
 
 .titlecontent {
