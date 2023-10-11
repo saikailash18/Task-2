@@ -209,14 +209,12 @@ html {
   width: inherit;
   color: #d4dbf3;
   text-align: center;
-  margin: 10px 0;
   padding-bottom: 0px;
-  min-height: 40px;
   background-color: #2d3e6b;
 }
 .footer p{
-  margin-top: 16px;
-    padding-top: 7px;
+  margin-top: 8px;
+    padding-top: 5px;
     font-family: Trebuchet MS;
 }
 .footer p a{

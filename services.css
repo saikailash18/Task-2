@@ -112,11 +112,12 @@ nav ul {
     padding: 27px 0 25px 25px;
   }
   .contentbackground {
-    border: 0.5px solid;
-  
-    border-color: #38455c;
-    background: linear-gradient(to bottom, #12203880, #121E38FF, #121E38FF);
-  }
+      font-family: Trebuchet MS;
+      font-size: 15px;
+      background: linear-gradient(to bottom, #12203880, #122038, #122038);
+      padding: 2px;
+      
+    }
  
   .bottomlinks a {
     color: #b2ddfc;
