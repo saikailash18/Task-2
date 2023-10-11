@@ -159,10 +159,10 @@ html {
   
 }
 .contentbackground {
-  border: 0.5px solid;
   font-family: Trebuchet MS;
   font-size: 15px;
   background: linear-gradient(to bottom, #12203880, #122038, #122038);
+  padding: 2px;
   
 }
 
@@ -248,8 +248,8 @@ html {
 .contentborder{
   border: 1px solid;
   border-color: #545b66;
-  margin: 2px;
-  border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0))1
+  border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0))1;
+  padding:10px
 }
 .img1{
   filter: brightness(2);
