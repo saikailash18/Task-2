@@ -144,6 +144,7 @@ nav ul {
   #contact::after{
     content:"|";
     margin-right: 10px;
+    list-style-type: none;
   }
   .topcontent{
     padding: 1px;
