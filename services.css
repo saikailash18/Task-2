@@ -137,6 +137,12 @@ html {
   padding-left: 15px;
   cursor: pointer;
 }
+.footer p a:hover{
+  color: white;
+}
+.topcontent a:hover{
+  color: #ade1f7;
+}
 #contact::after{
   content:"|";
   margin-bottom: 15px;
@@ -178,6 +184,11 @@ ul.leftcontent1 {
     border-top: 1px solid #3d4558;
   border-bottom: 1px solid #3d4558;
 }
+ul.leftcontent1 a:hover{
+  color: white;
+}
+
+
 .leftsidecontent{
   padding-left: 0px;
 }

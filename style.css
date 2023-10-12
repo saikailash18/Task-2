@@ -19,7 +19,9 @@ nav li  a:hover{
 .topbar ul li a:hover {
   background-color: #4a657f;
 }
-
+.topcontent a:hover{
+  color: #ade1f7;
+}
 
 
 nav {
