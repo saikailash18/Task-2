@@ -28,7 +28,6 @@
 .menu-items li:hover a,
 .active {
   color: #fff;
-  border-radius: 7px;
   background-color: #136885;
   padding-top: 2px;
   padding-bottom: 5px;
@@ -194,7 +193,6 @@ li a.current {
   background-color: #136885;
   padding-top: 2px;
   padding-bottom: 5px;
-  border-radius: 6px;
 }
 
 .left-column {
