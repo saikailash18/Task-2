@@ -19,10 +19,6 @@ topcontent li:not(:last-child)::after {
   content: " | ";
   margin-right: 5px;
 }
-/* .topbar ul li:not(:first-child)::before {
-  content: "|";
-  margin-right: 5px;
-} */
 
 nav {
   padding-top: 1px;
@@ -385,7 +381,6 @@ html {
 .menu-items li:hover a,
 .active {
   color: #fff;
-  border-radius: 7px;
   background-color: #136885;
   padding-top: 2px;
   padding-bottom: 5px;
