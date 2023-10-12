@@ -4,7 +4,8 @@ nav ul {
 
   margin: 0;
   cursor:pointer;
-  padding-left: 35px;
+  padding-bottom: 1px;
+  padding-left: 0px;
 }
 
 nav li {
@@ -20,15 +21,27 @@ nav {
 
   background-color: #162941;
 
-  margin-top: 90px;
+  margin-top: 30px;
 
   position: relative;
 
-  height: 66px;
+  height: 55px;
 }
 
+/* .topbar {
+  padding-left: 205px;
+
+
+  padding-right: 0;
+
+  padding-bottom: 0px;
+
+  padding-top: 8px;
+  border: 1px solid white;
+} */
 .topbar {
-  padding-left: 273px;
+  padding-left: 240px;
+  height: 50px;
   border: 0.5px solid;
 
   border-color: #545b66;
@@ -39,7 +52,10 @@ nav {
 
   padding-bottom: 0px;
 
-  padding-top: 5px;
+ 
+}
+img{
+  width: 200px;
 }
 
 nav ul li a {
@@ -48,29 +64,30 @@ nav ul li a {
   font-size: 16px;
   font-family:sans-serif;
   font-weight: lighter;
+  padding-left: 0px;
 }
-/* nav ul li a.active {
-  color: red !important;
-  background-color: red !important;
-} */
-nav li  a:hover{
+nav ul li {
+  padding: 0px;
+}
+/* nav li  a:hover{
   color: white;
-}
-.topbar ul li a:hover {
+} */
+.topbar ul li:hover {
   background-color: #4a657f;
+  border-radius: 14px;;
 }
+
 nav ul li p::before {
   content: "|";
-  margin-right: 12px;
   color: #fffffd;
-  font-size: 18px;
+  margin-right: 10px;
+  /* font-size: 18px; */
 }
 
 body {
-  width: 960px;
+  width: 830px;
   margin:  auto;
   justify-content: center;
-  padding-top: 1px;
 }
 
 html {
@@ -82,27 +99,43 @@ html {
   height: 100%;
 }
 .toprightbox {
-  background-color:#405c8a;
-  float: right;
+  
   font-weight: normal;
-  font-size: 15px;
+  font-size: 12px;
   height: 20px;
-  padding: 2px 7px 2px 2px;
   text-align: right;
   cursor: pointer;
   margin-top: 0px;
   font-family: 'Trebuchet MS';
     
 }
+.topcontent{
+  background-color:#405c8a;
+  height: 15px;
+  padding: 1px;
+  display: inline-flex;
+  list-style: none;
+  color: white;
+  margin-top: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.toprightbox li p::before {
+  content: "|";
+  margin-right: 7px;
+  margin-left: 0px;
+}
 
-
-
+.toprightbox li p{
+  margin-top: 0px;
+}
+.topcontent li:not(:last-child)::after {
+  content: " | ";
+  margin-right: 5px;
+}
 #Logo {
-  float: left;
-  height: 158px;
   position: absolute;
-  top: 50px;
-  width: 224px;
+  top: 16px;
   margin-left: 10px;
 }
 #Banner {
@@ -117,111 +150,117 @@ html {
     padding: 2px;
     
   }
+  .contentborder{
+    border: 1px solid #545b66;
+    margin: 2px;
+    border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0))1;
+  }
+  .container {
+    display: flex;
+    padding: 15px;
+    color: white;
+    column-gap: 30px;
+    font-family: Trebuchet MS;
+    font-size: 15px;
+  }
+  .leftcontent1 a{
+    color: #b2ddfc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .leftcontent1 a:hover{
+    color: white;
+  }
 
 .bottomlinks a {
   color: #b2ddfc;
 }
-.footer {
-  width: inherit;
-  color: #d4dbf3;
-  text-align: center;
-  padding-bottom: 0px;
-  background-color: #2d3e6b;
-}
-.footer p{
-  margin-top: 8px;
-    padding-top: 5px;
-    font-family: Trebuchet MS;
-}
-.footer p a{
-  padding-left: 15px;
-  cursor: pointer;
-}
-.footer p a:hover{
-  color: white;
-}
-.topcontent a:hover{
-  color: #ade1f7;
-}
-#contact::after{
-  content:"|";
-  margin-bottom: 15px;
-}
-.topcontent{
-  padding: 1px;
-  display: inline-flex;
-  list-style: none;
-  color: white;
-  margin-top: 0px;
-  gap: 15px;
-}
-.toprightbox li p::before {
-  content: "|";
-  margin-right: 7px;
-  margin-left: 0px;
-}
 
-.toprightbox li p{
-  margin-top: 0px;
-}
 
-.contentborder{
-  border-color: #545b66;
-  margin: 2px;
-}
+
+
+
 #leftsidecol{
   width: 280px;
   padding-left: 45px;
   padding-top: 45px;
   line-height: 35px;
 }
-ul.leftcontent1 {
-  padding: 15px 0 15px 0;
-  width: 277px;
-  list-style: none;
-  color: white;
-  padding-left: 0px;
-    border-top: 1px solid #3d4558;
-  border-bottom: 1px solid #3d4558;
-}
-ul.leftcontent1 a:hover{
-  color: white;
-}
-
-
-.leftsidecontent{
-  padding-left: 0px;
-}
-a.current {
-  background-color: #4a657f;
-}
-
-.topbar ul li a:active {
-  background-color: #4a657f;
-}
-
-#rightsidecol{
-  float: right;
-  width: 500px;
-}
-.leftcontent1 a{
-  color: #b2ddfc;
-  text-decoration: underline;
+button{
+  background-color: #185874;
+  color:white;
+  border-radius: 4.5px;
+  margin-bottom: 20px;
+  margin-left: 30px;
   cursor: pointer;
 }
-.container {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 15px;
-  column-gap: 10px;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d3e6b;
+  margin-top: 10px;
+  height: 24px;
   color: white;
-  font-family: Trebuchet MS;
-  font-size: 15px;
+}
+
+.footer p {
+  margin-right: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  gap: 0 5px;
+}
+
+.footer ul li a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 5px;
+}
+
+.footer ul li:not(:last-child)::after {
+  content: "|";
+  padding: 5px;
+  color: #CAD2EE;
 }
 
 
+
+
+.leftcontent1{
+  background-color: #122139;
+  border-top: 1px solid #3d4558;
+  border-bottom: 1px solid #3d4558;
+}
+li.current {
+  background-color: #4a657f;
+  border-radius: 14px;
+  height: 42px;
+  margin-top: 3px ;
+}
+/* .topbar ul li p:not(:first-child)::before {
+  content: "|";
+  margin-right: 15px;
+  color:white
+} */
+
+
+
+
+.left-column {
+  line-height: 26px;
+}
+.item3{
+  color: #ade1f7;
+  font-weight: bold;
+  font-size: 20px;
+}
 .item4 {
   color: #ade1f7;
+  
 }
 
 .item4 a {
@@ -230,6 +269,8 @@ a.current {
 
 .item4 p {
   color: white;
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .item5 {
@@ -238,18 +279,23 @@ a.current {
 
 .item6 {
   margin-left: 30px;
+  line-height: 18px;
 }
 
 .item6 p {
   margin-top: 0px;
+  display: flex;
 }
-
-.item7 {
-  padding: 0 0 15px 30px;
+.item7{
+  margin-top: 45px;
   background-color: #122139;
   border-top: 1px solid #3d4558;
   border-bottom: 1px solid #3d4558;
 }
+.item7 p{
+  margin-left: 30px;
+}
+
 
 .item7 a {
   background-color: #165975;
@@ -260,11 +306,8 @@ a.current {
 .item6 p::before {
   content: ".";
   margin-right: 5px;
-  font-size: 15px;
 }
 
-#request::after{
-  content: "|";
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
+
+
+
