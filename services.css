@@ -1,5 +1,5 @@
 .header {
-  width: auto;
+  width: 100%;
   margin: 35px auto 0px;
 }
 
@@ -12,16 +12,15 @@
 .menu-items {
   list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  padding-left: 250px;
 }
 
-.menu-items li a,
-.active {
+.menu-items li a, .active {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 19px;
   font-family: "Trebuchet MS";
-  padding: 12px;
+  padding: 15px;
   color: white;
 }
 
@@ -31,13 +30,13 @@
   background-color: #136885;
   padding-top: 2px;
   padding-bottom: 5px;
+  cursor: pointer;
 }
 
 .menu-items li:not(:last-child)::after {
   font-size: 18px;
   content: "|";
   color: #fff;
-  margin: 0 10px;
 }
 .navborder {
   border: 1px solid;
