@@ -47,6 +47,7 @@ body {
   .topcontent li:not(:last-child)::after {
     content: " | ";
     margin-right: 5px;
+    color: #b2ddfc;;
   }
   .header {
     width: 100%;
@@ -66,7 +67,7 @@ body {
     display: flex;
     justify-content: center;
     padding-left: 250px;
-    border-radius: 9px;
+    border-radius: 7px;
   }
   
   .menu-items li a, .active {
@@ -74,7 +75,7 @@ body {
     font-family: "Trebuchet MS";
     padding: 15px;
     color: #ade1f7;
-    border-radius: 9px;
+    border-radius: 7px;
   }
   
   .menu-items li:hover a,
@@ -84,7 +85,7 @@ body {
     padding-top: 2px;
     padding-bottom: 5px;
     cursor: pointer;
-    border-radius: 9px;
+    border-radius: 7px;
   }
   
   .menu-items li:not(:last-child)::after {
@@ -298,5 +299,5 @@ body {
     background-color: #136885;
     padding-top: 2px;
     padding-bottom: 5px;
-    border-radius: 9px;
+    border-radius: 7px;
   }
