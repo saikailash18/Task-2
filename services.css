@@ -15,14 +15,15 @@
   display: flex;
   justify-content: center;
   padding-left: 250px;
+  border-radius: 9px;
 }
 
 .menu-items li a, .active {
   text-decoration: none;
-  font-size: 19px;
   font-family: "Trebuchet MS";
   padding: 15px;
   color: #ade1f7;
+  border-radius: 9px;
 }
 
 .menu-items li:hover a,
@@ -32,6 +33,7 @@
   padding-top: 2px;
   padding-bottom: 5px;
   cursor: pointer;
+  border-radius: 9px;
 }
 
 .menu-items li:not(:last-child)::after {
@@ -47,16 +49,21 @@
 body {
   width: 960px;
   margin: auto;
+
   justify-content: center;
 }
-
 html {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: url("./bg.jpg");
+  
   background-repeat: no-repeat;
   background-size: cover;
-
   background-position: center;
-  height: 100%;
+  padding-bottom: 20px;
 }
 .toprightbox {
   font-weight: normal;
@@ -193,6 +200,7 @@ li a.current {
   background-color: #136885;
   padding-top: 2px;
   padding-bottom: 5px;
+  border-radius: 9px;
 }
 
 .left-column {
