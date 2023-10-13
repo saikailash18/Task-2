@@ -1,0 +1,287 @@
+/* services.css styles */
+
+.header {
+    width: 100%;
+    margin: 35px auto 0px;
+  }
+  
+  .nav {
+    padding: 4px;
+    background-color: #15233c;
+    text-transform: uppercase;
+  }
+  
+  .menu-items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 250px;
+    border-radius: 9px;
+  }
+  
+  .menu-items li a,
+  .active {
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "Trebuchet MS";
+    padding: 15px;
+    color: #ade1f7;
+    border-radius: 9px;
+  }
+  
+  .menu-items li:hover a,
+  .active {
+    color: #fff;
+    background-color: #136885;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 9px;
+  }
+  
+  .menu-items li:not(:last-child)::after {
+    font-size: 18px;
+    content: "|";
+    color: #fff;
+  }
+  
+  .navborder {
+    border: 1px solid;
+    border-color: #545b66;
+  }
+  
+  .topcontent {
+    background-color: #405c8a;
+    height: 15px;
+    padding: 1px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    margin-top: 0px;
+    padding: 5px;
+  }
+  
+  .toprightbox li p::before {
+    content: "|";
+    margin-right: 7px;
+    margin-left: 0px;
+  }
+  
+  .toprightbox li p {
+    margin-top: 0px;
+  }
+  
+  .topcontent li:not(:last-child)::after {
+    content: " | ";
+    margin-right: 5px;
+  }
+  
+  /* style.css styles */
+  
+  nav {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #162941;
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .topbar {
+    padding-left: 273px;
+    height: 50px;
+    border: 0.5px solid;
+    border-color: #545b66;
+    margin: 2px;
+    padding-right: 0;
+    color: white;
+  }
+  
+  .topbar ul li {
+    margin-top: 7px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ade1f7;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  nav ul li p::before {
+    content: "|";
+    margin-right: 12px;
+    color: #fffffd;
+    font-size: 18px;
+  }
+  
+  #bringing {
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  #operational {
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+  }
+  
+  .toprightbox {
+    font-weight: normal;
+    font-size: 12px;
+    height: 20px;
+    text-align: right;
+    cursor: pointer;
+    margin-top: 0px;
+    font-family: "Trebuchet MS";
+  }
+  
+  #Logo {
+    float: left;
+    position: absolute;
+    top: 13px;
+    background-color: #291b1b47;
+  }
+  
+  #firstline {
+    margin-top: 0px;
+  }
+  
+  .contentbackground {
+    font-family: Trebuchet MS;
+    font-size: 15px;
+    background: linear-gradient(to bottom, #12203880, #122038, #122038);
+    padding: 2px;
+  }
+  
+  #contenttable {
+    margin-top: 5px;
+    font-family: "Trebuchet MS";
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .titlecontent {
+    color: white;
+    margin-right: 40px;
+  }
+  
+  .titlecontent1 {
+    color: white;
+    margin-right: 40px;
+    padding-bottom: 16px;
+  }
+  
+  .bottomlinks {
+    margin-top: 18px;
+    color: white;
+  }
+  
+  .bottomlinks1 {
+    margin-top: 5px;
+    color: #b2ddfc;
+    text-decoration: underline;
+  }
+  
+  .bottomlinks2 {
+    margin-top: 20px;
+    color: #b2ddfc;
+    text-decoration: underline;
+  }
+  
+  .bottomlinks a {
+    color: #b2ddfc;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    gap: 0 5px;
+  }
+  
+  .footer ul li a {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 5px;
+  }
+  
+  .footer ul li:not(:last-child)::after {
+    content: "|";
+    padding: 5px;
+    color: #cad2ee;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .left-column img {
+    width: 100%;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .item4 {
+    color: #ade1f7;
+  }
+  
+  .item4 a {
+    color: #ade1f7;
+  }
+  
+  .item4 p {
+    color: white;
+  }
+  
+  .item5 {
+    color: white;
+  }
+  
+  .item6 {
+    margin-left: 30px;
+  }
+  
+  .item6 p {
+    margin-top: 0px;
+  }
+  
+  .item7 {
+    padding: 0 0 15px 30px;
+    background-color: #122139;
+    border-top: 1px solid #3d4558;
+    border-bottom: 1px solid #3d4558;
+  }
+  
+  .item7 a {
+    background-color: #165975;
+    border-radius: 2.5px;
+    padding: 4px 15px 6px 15px;
+  }
+  
+  .item6 p::before {
+    content: ".";
+    margin-right: 5px;
+    font-size: 15px;
+  }
+  

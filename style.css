@@ -117,7 +117,6 @@ html {
 }
 
 #Logo {
-  float: left;
   position: absolute;
   top: 15px;
   margin-left: 10px;
@@ -131,7 +130,7 @@ html {
 
   padding-top: 27px;
 
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 
   background-color: #291b1b47;
 }
@@ -175,11 +174,13 @@ html {
 }
 
 .titlecontent {
+  padding-top: 10px;
   color: white;
   margin-right: 40px;
 }
 
 .titlecontent1 {
+  padding-top: 10px;
   color: white;
   margin-right: 40px;
   padding-bottom: 16px;
@@ -188,16 +189,19 @@ html {
 .bottomlinks {
   margin-top: 18px;
   color: white;
+  
 }
 .bottomlinks1 {
   margin-top: 5px;
   color: #b2ddfc;
   text-decoration: underline;
+  cursor: pointer;
 }
 .bottomlinks2 {
   margin-top: 20px;
   color: #b2ddfc;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .bottomlinks a {
@@ -274,6 +278,7 @@ html {
 .img1 {
   filter: brightness(2);
 }
+
 .titlecontent {
   padding-right: 15px;
 }
@@ -378,7 +383,7 @@ html {
   font-family: "Trebuchet MS";
   padding: 15px;
   color: #ade1f7;
-  border-radius: 9px;
+  border-radius: 7px;
 }
 
 .menu-items li:hover a,
@@ -388,7 +393,7 @@ html {
   padding-top: 2px;
   padding-bottom: 5px;
   cursor: pointer;
-  border-radius: 9px;
+  border-radius: 7px;
 }
 
 .menu-items li:not(:last-child)::after {
