@@ -42,7 +42,7 @@ body {
   .topcontent li:not(:last-child)::after {
     content: " | ";
     margin-right: 5px;
-    color: #b2ddfc;;
+    color: #b2ddfc;
   }
   .header {
     width: 100%;
