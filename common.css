@@ -282,14 +282,14 @@ body {
     padding: 4px 15px 6px 15px;
   }
   button {
-    background-image: linear-gradient(to top,#0A293D,#155D75);
+    background-image: linear-gradient(to top,#223e4d,#155D80);
     color: white;
     border-radius: 4.5px;
     margin-bottom: 20px;
     margin-left: 30px;
     cursor: pointer;
     padding: 7px;
-    border:none
+    border:none;
   }
   li a.current {
     background-color: #136885;
