@@ -7,6 +7,7 @@
   padding: 4px;
   background-color: #15233c;
   text-transform: uppercase;
+  
 }
 
 .menu-items {
@@ -21,7 +22,7 @@
   font-size: 19px;
   font-family: "Trebuchet MS";
   padding: 15px;
-  color: white;
+  color: #ade1f7;
 }
 
 .menu-items li:hover a,
@@ -139,7 +140,7 @@ html {
   line-height: 35px;
 }
 button {
-  background-color: #185874;
+  background-image: linear-gradient(to top,#0A293D,#155D75);
   color: white;
   border-radius: 4.5px;
   margin-bottom: 20px;
@@ -153,7 +154,7 @@ button {
   justify-content: center;
   background-color: #2d3e6b;
   margin-top: 10px;
-  height: 24px;
+  height: 25px;
   color: white;
 }
 
@@ -231,7 +232,7 @@ li a.current {
 }
 .item7 {
   margin-top: 45px;
-  background-color: #122139;
+  background-color: #0A293D;
   border-top: 1px solid #3d4558;
   border-bottom: 1px solid #3d4558;
 }

@@ -374,8 +374,8 @@ html {
   font-size: 19px;
   font-family: "Trebuchet MS";
   padding: 15px;
-  color: white;
-}
+  color: #ade1f7;
+} 
 
 .menu-items li:hover a,
 .active {
