@@ -21,11 +21,6 @@ body {
     margin-top: 0px;
     font-family: "Trebuchet MS";
   }
-  .toprightbox li p::before {
-    content: "|";
-    margin-right: 7px;
-    margin-left: 0px;
-  }
   
   .toprightbox li p {
     margin-top: 0px;
@@ -41,7 +36,7 @@ body {
     padding: 5px;
   }
   .topcontent li:not(:last-child)::after {
-    content: " | ";
+    content: "|";
     margin-right: 5px;
     color: #b2ddfc;
   }
